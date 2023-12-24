@@ -1,0 +1,324 @@
+
+@font-face {
+  font-family: "IBMPlexMono-Bold";
+  src: url("../fonts/IBMPlexMono-Bold.ttf") format("truetype");
+  font-style: bold;
+  font-weight: bold;
+}
+
+p{
+    font-family: 'IBMPlexMono-Bold';
+}
+
+
+@font-face {
+  font-family: "IBMPlexMono-Regular";
+  src: url("../fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+p{
+    font-family: 'IBMPlexMono-Regular';
+}
+
+.stroka1{
+  margin-top: 3%;
+  margin-bottom: -3%;
+    width: 100%;
+    height: 5vw;
+    position: relative;
+    font-size: 3vw ;
+    display: block;
+    overflow: hidden;
+    background: #F1F1F1;
+    rotate: -2deg;
+}
+
+.strokapod{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    white-space:nowrap; 
+    display: block;
+    font-family: 'IBMPlexMono-Regular';
+    animation: stroka1 18s linear infinite;
+    margin-top: 1vw;
+}
+
+@keyframes stroka1 {
+    0% {transform: translatex(-120%)}
+    100% {transform: translatex(0%)}
+}
+.BD{
+
+    margin-top: 3%;
+    width: 100%;
+}
+.BD1{
+   
+  font-size: 8vw;
+  font-family: 'IBMPlexMono-Bold';
+  margin-left: 5%;
+
+}
+.BD2{
+    font-size: 8vw;
+    font-family: 'IBMPlexMono-Bold';
+    margin-left: 5%;
+    color: white;
+    -webkit-text-stroke: 0.2vw;
+    -webkit-text-stroke-color: black;
+  }
+
+  .i1{
+    position: relative;
+    overflow: hidden;
+
+        margin-top: -18%;
+  }
+
+  .img1{
+    width: 100%;
+   
+  }
+  .i2{
+    position: relative;
+    overflow: hidden;
+     margin-top: -40%;
+     margin-left: -20%;
+  }
+  .img2{
+    width: 100%;
+  }
+
+  .img3{
+    margin-top:5% ;
+    width: 30vw;
+    animation: img3 20s linear infinite;
+  }
+
+  @keyframes img3 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+  }
+
+  .krug1{
+    margin-top: -144%;
+  }
+
+  .img4{
+    width: 100%;
+    margin-top: -15%;
+  }
+
+
+  .img5{
+    position: relative;
+    width: 100%;
+    margin-left: 15%;
+    animation: img5 30s linear infinite ;
+ }
+
+ @keyframes img5 {
+  0%{ left: 0%; top: 0px;}
+  50%{ left: 20%; top: 30px;}
+  100%{ left: 0%; top: 0px;}
+ }
+
+ .i4{
+  width: 100%;
+  margin-top: -15%;
+  position: relative;
+  overflow: hidden;
+}
+.i5{
+  margin-top: 5%;
+}
+  .img6{
+   
+    margin-left: 66%;
+    width: 30vw;
+    animation: img3 20s linear infinite;
+  }
+
+  @keyframes img3 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+    }
+.krug2{
+    margin-top: -70%;
+}
+.img8{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.stroka2{
+    width: 100%;
+    height: 5vw;
+    position: relative;
+    font-size: 3vw ;
+    display: block;
+    overflow: hidden;
+    background: #F1F1F1;
+    margin-top: 8%;
+    rotate: 3deg;
+}
+
+.strokapod2{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    white-space:nowrap; 
+    display: block;
+    font-family: 'IBMPlexMono-Regular';
+    animation: stroka1 18s linear infinite;
+    margin-top: 1vw;
+}
+
+@keyframes stroka2 {
+    0% {transform: translatex(-120%)}
+    100% {transform: translatex(0%)}
+}
+
+.text1{
+ 
+    margin-left: 65%;
+    margin-top: -50%;
+    font-size: 3vw ;
+    font-family: 'IBMPlexMono-Regular'; 
+    rotate: -13deg;
+}
+.img7{
+   margin-top: -2%;
+    width: 100%;
+}
+.img8{
+  width: 100%;
+    margin-top: 15%;
+}
+.img9{
+  
+  margin-left: 10%;
+  position: relative;
+  width: 100%;
+  animation: img9 15s linear infinite ;
+ }
+
+ @keyframes img9 {
+  0%{ left: 0%; top: 0px;}
+  25%{ left: -5%; top: -10px;}
+  50%{ left: -10%; top: -20px;}
+  100%{ left: 0%; top: 0px;}
+ }
+
+ .i6{margin-top: -20%;
+  position: relative;
+  overflow: hidden;
+ }
+ .img10{
+    width: 100%;
+   margin-top: -45%;
+ }
+
+ .img11{
+    width: 100%;
+    margin-top: -20%;
+    margin-bottom: -7%;
+}
+.i9{
+  position: absolute;
+}
+.img12{
+    width: 110%;
+    margin-top: -40%;
+    position: absolute;
+}
+
+.stroka3{
+    width: 100%;
+    height: 5vw;
+    position: relative;
+    font-size: 3vw ;
+    display: block;
+    overflow: hidden;
+    background: #F1F1F1;
+    margin-top: -10%;
+    rotate: -4deg;
+   
+
+}
+
+.strokapod3{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    white-space:nowrap; 
+    display: block;
+    font-family: 'IBMPlexMono-Regular';
+    animation: stroka1 18s linear infinite;
+    margin-top: 1vw;
+}
+
+@keyframes stroka3 {
+    0% {transform: translatex(-120%)}
+    100% {transform: translatex(0%)}
+}
+.i9{
+  margin-top: 5%;
+ width: 100%;
+ position: relative;
+}
+.img12{
+position: relative;
+width: 100%;
+animation: img12 35s linear infinite ;
+}
+
+@keyframes img12 {
+0%{ right: 0%; top: 0px;}
+25%{ right: 5%; top: 20px;}
+50%{ right: 10%; top: 30px;}
+100%{ right: 0%; top: 0px;}
+}
+
+.img13{
+  position: relative;
+    width: 100%;
+
+}
+
+.pchela{
+  margin-left: 10%;
+  position: relative;
+  width: 20%; 
+  height: 80vw; 
+  margin-top: -90%;
+  overflow: hidden;
+  animation: pchela  8s linear infinite;
+
+}
+
+
+@keyframes pchela {
+0%{ left: 0%; top: 0px; }
+5%{ left: 10%; top: 1vw; rotate: 5deg;}
+10%{ left: 15%; top: 0px;}
+20%{ left: 25%; top: 5vw; rotate: 25deg;}
+30%{ left: 35%; top: 8vw; rotate: 45deg;}
+40%{ left: 45%; top: 9vw; rotate: 180deg;}
+45%{ left: 50%; top: 10vw; rotate: 250deg;}
+50%{ left: 55%; top: 8vw; rotate: 270deg;}
+55%{ left: 45%; top:7vw; rotate: 300deg;}
+65%{ left: 30%; top: 3vw; rotate: 320deg;}
+70%{ left: 10%; top: 0px; rotate: 330deg;}
+80%{ left: 0%; top: -3vw; rotate: 345deg ;}
+90%{ left: -15%; top: -7vw; rotate: 350deg;}
+100%{ left: 0%; top: 0px; rotate: 360deg;}
+}
+
+.pchela:hover {
+  animation-play-state: paused;
+  }
+
